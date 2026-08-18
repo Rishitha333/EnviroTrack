@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+EnviroTrack/bin/
+EnviroTrack/hs_err_pid*.log
+
+# Secrets — never commit these
+.env
+db.properties
+ 
+# IDE / editor config (currently committed; remove them from the repo too)
+EnviroTrack/.classpath
+EnviroTrack/.project
+EnviroTrack/.settings/
+EnviroTrack/.vscode/
